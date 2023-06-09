@@ -403,11 +403,11 @@ namespace OfficeOpenXml.Table
         { 
             get
             {
-                return ShowHeader && AutoFilterAddress != null;
+                return ShowFilter && AutoFilterAddress != null;
             }
             set
             {
-                if (ShowHeader)
+                if (ShowFilter)
                 {
                     if (value)
                     {
